@@ -1,0 +1,251 @@
+.App {
+  text-align: center;
+}
+.container {
+  position: relative;
+  width: 830px;
+  height: 282px;
+}
+
+  
+
+.square {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  top:-40vmin;
+  left:55vmin;
+  background-color:#FFBF00;
+  position: relative;
+  z-index: 4;
+
+}
+.square00 {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  top:20vmin;
+  left:-55vmin;
+  background-color:#FFBF00;
+  position: relative;
+  z-index: 4;
+
+}
+.circle {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  top:300px;
+  left:650px;
+  background-color:#FFBF00;
+  border-radius: 80%;
+  position: relative;
+  z-index: 4;
+  
+  
+}
+.text-black-spr {
+  color:black;
+   align-items: center;
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-family: 'Bebas Neue';
+  font-weight: 1000; 
+  line-height: 32px;
+  font-size: 15px; 
+  margin:auto;
+  
+}
+.text-black {
+  color:black;
+   align-items: center;
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-family: 'Bebas Neue';
+  font-weight: 1000; 
+  line-height: 32px;
+  font-size: 30px; 
+  margin:auto;
+  
+}
+
+.text-white{
+  color:white;
+}
+.text{
+  position: absolute; 
+  width: 945px;
+  height: 252px;
+  opacity: 0.7;
+  top: 340px; 
+  left:90px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  
+  font-family: 'Bebas Neue';
+  font-weight: 400; 
+  line-height: 32px;
+  font-size: 24px; 
+  z-index: 3;
+  
+ 
+}
+.rectangle {
+  position: absolute; 
+  width: 945px;
+  height: 252px;
+  
+  background-color: #BD1F17;
+  background-color: #A51D13;
+  background-color: #8E1B0F;
+  opacity: 0.7;
+  top: 220px; 
+  left:200px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  
+  font-family: 'Bebas Neue';
+  font-weight: 1000; 
+  line-height: 60px;
+  font-size: 60px; 
+}
+.App-logo-resturant {
+  position: absolute; 
+  height:30px;
+  width: 150px;
+  pointer-events: none;
+  top:10px;
+  left: 30vmin;
+  object-fit: cover; 
+  z-index: 5;
+  
+}
+.home {
+  position: absolute;
+  top:17px;
+  left: 50vmin;
+  object-fit: cover; 
+  z-index: 5;
+  font-size: 15px; 
+  
+}
+.about {
+  position: absolute;
+  top:17px;
+  left: 57vmin;
+  object-fit: cover; 
+  z-index: 5;
+  font-size: 15px; 
+  
+}
+.portfolio {
+  position: absolute;
+  top:17px;
+  left: 64vmin;
+  object-fit: cover; 
+  z-index: 5;
+  font-size: 15px; 
+  
+}
+.client {
+  position: absolute;
+  top:17px;
+  left: 73vmin;
+  object-fit: cover; 
+  z-index: 5;
+  font-size: 15px; 
+  
+}
+.blog {
+  position: absolute;
+  top:17px;
+  left: 80vmin;
+  object-fit: cover; 
+  z-index: 5;
+  font-size: 15px; 
+  
+}
+.contact {
+  position: absolute;
+  top:17px;
+  left: 85vmin;
+  object-fit: cover; 
+  z-index: 5;
+  font-size: 15px; 
+  
+}
+.App-logo-flower {
+  position: absolute; 
+  height:65px;
+  width: 65px;
+  pointer-events: none;
+  top:90px;
+  left: 165vmin;
+  object-fit: cover; 
+  z-index: 4;
+
+  
+}
+
+.App-logo {
+  position: absolute; 
+  height:700px;
+  width: 649px;
+  pointer-events: none;
+  top:130px;
+  left: 100vmin;
+  object-fit: cover; /* This will make the image cover the div */
+  z-index: 1; /* Ensure the image is on top */
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #BD1F17;
+  background-color: #A51D13;
+  background-color: #8E1B0F;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

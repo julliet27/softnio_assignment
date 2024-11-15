@@ -1,0 +1,37 @@
+
+.About {
+    text-align: center;
+  }
+.text-white{
+    color:white;
+}
+.About-header {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+.About-logo {
+    position: absolute; 
+    height:500px;
+    width: 700px;
+    pointer-events: none;
+    top:1100px;
+    left: 20vmin;
+    object-fit: cover; /* This will make the image cover the div */
+    z-index: 1; /* Ensure the image is on top */
+  }
+
+  .About-logo-img {
+    position: absolute; 
+    height:150px;
+    width: 300px;
+    pointer-events: none;
+    top:1120px;
+    left: 22vmin;
+    object-fit: cover; /* This will make the image cover the div */
+    z-index: 2; /* Ensure the image is on top */
+  }
